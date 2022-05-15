@@ -4,6 +4,41 @@
 <head>
   <meta charset="utf-8">
   <title>Mandeep</title>
+  <style media="screen">
+    body {
+      background-color: #DCD6F7;
+    }
+
+    hr {
+      border-style: none;
+      border-top-style: dotted;
+      border-width: 5px;
+      border-color: #798777;
+      width: 5%;
+    }
+
+    #table3 {
+      padding: 1em;
+      border-collapse: collapse;
+      table-layout: auto;
+      width: 50%;
+    }
+
+    #Table2 {
+      padding: 1em;
+      border-collapse: collapse;
+      table-layout: auto;
+      width: 50%;
+    }
+
+    .Th2 {
+      border-style: none outset none none;
+
+      border-color: #79877;
+      width: 15em;
+      height: 3em;
+    }
+  </style>
 </head>
 
 <body>
@@ -17,6 +52,22 @@
           Khentawas,Farrukh Nagar <br>
           (123506), Gurgaon, Haryana</p>
       </td>
+    </tr>
+  </table>
+  <hr>
+  <br>
+  <table id="Table2">
+    <tr>
+      <th class="Th2">Looking For -:</th>
+      <th>Educational Details -:</th>
+    </tr>
+    <tr>
+      <th class="Th2">
+        Intership
+      </th>
+      <th>
+        Currently taking undergraduate degree
+      </th>
     </tr>
   </table>
   <hr>
@@ -54,11 +105,19 @@
         <td>
           <p>
           <form class="form1" action="mailto:greatscientistmandy@gmail.com" method="post" target="_blank">
-            <label for="form1">Your Name</label>
-            <input id="form1" type="text" name="Name"><br><br>
-            <label for="Message">Your Message</label>
-            <textarea id=Message name="Message" rows="5" cols="20"></textarea>
-            <input type="submit" name="submit" value="Submit">
+            <table id="table3">
+              <tr>
+                <td><label for="form1">Your Name</label>
+                  <input id="form1" type="text" name="Name">
+                </td>
+              </tr>
+              <tr>
+                <td><label for="Message">Your Message</label>
+                  <textarea id=Message name="Message" rows="5" cols="20"></textarea>
+                  <input type="submit" name="submit" value="Submit">
+                </td>
+              </tr>
+            </table>
           </form>
           </p>
         </td>
