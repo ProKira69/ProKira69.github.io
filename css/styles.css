@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+.ex {
+  font-family: 'Eater', cursive;
+  color: #ffffff;
+
+}
+
+.top {
+  padding-top: 100px;
+  position: relative;
+  background-color: #222831;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Nosifer', cursive;
+  font-size: 6.5em;
+  letter-spacing: -3px;
+  line-height: 110%;
+  margin: 0;
+  transition: all .2s ease-in-out;
+  color: #ffffff;
+  background: linear-gradient(90deg, #3EDBF0 30%, #2155CD 45%, #03045E 55%, #000000 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mountain {
+  margin-top: 0;
+
+}
