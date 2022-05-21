@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+body {
+  color: white;
+    margin: 0;
+}
+
+.outer {
+  position: relative;
+  background-color: black;
+  height: 31.25rem;
+  width:100%;
+}
+
+.heading-container {
+  position: absolute;
+  background-color: transparent;
+  height: 31.25rem;
+  width: 50%;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Nosifer', cursive;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #EEEEEE, #FF0000 40%, #950101 70%, #810000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4.5rem;
+  letter-spacing: -3px;
+  line-height: 110%;
+  margin: 0;
+  padding-left: 1rem;
+  padding-top: 3.125rem;
+  position: absolute;
+  top: 6.25rem;
+}
+
+.image-container {
+  position: absolute;
+  background-color: transparent;
+  height: 31.25rem;
+  width: 50%;
+  left: 50%;
+}
+
+.dragon-head {
+  position: absolute;
+  right: 0.06rem;
+  margin: 0;
+}
+
+.right-claw {
+  position: absolute;
+  left: 0.06rem;
+  top: 4.375rem;
+}
+
+.left-claw {
+  position: absolute;
+  right: 0.06rem;
+  top: 5.625rem;
+}
